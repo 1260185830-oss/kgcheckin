@@ -30,17 +30,17 @@ async function login() {
         if (APPEND_USER == "是") {
           for (let i = 0; i < userinfo.length; i++) {
 
-            if (userinfo[i].userid == res.data.userid) {
+            if (userinfo[i].userid == result.data.userid) {
               userAlreadyExist = true
               printYellow(`userid: ${userinfo[i].userid} 此账号已存在, 仅更新登录信息`)
-              userinfo[i].token = res.data.token
+              userinfo[i].token = result.data.token
             }
           }
         }
         if (!userAlreadyExist) {
           userinfo.push({
-            userid: res.data.userid,
-            token: res.data.token
+            userid: result.data.userid,
+            token: result.data.token
           })
         }
         if (userinfo.length) {
