@@ -73,3 +73,4 @@ API源代码来自 [MakcRe/KuGouMusicApi](https://github.com/MakcRe/KuGouMusicAp
 - 感谢 [@MakcRe](https://github.com/MakcRe) 提供 API 源代码
 - 感谢 [@itfw](https://github.com/itfw) 提供二维码显示问题的解决方案
 - 感谢 [@klaas8](https://github.com/klaas8) 提供自动写入secret的方法
+
